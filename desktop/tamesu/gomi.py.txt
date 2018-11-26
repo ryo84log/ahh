@@ -1,0 +1,10 @@
+
+
+from matplotlib import *
+from matplotlib.pyplot import *
+from numpy import *
+from numpy.linalg import *
+
+
+a = matrix([2,3],[3,4])
+b = inv(a)
